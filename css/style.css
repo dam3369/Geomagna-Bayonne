@@ -1,0 +1,13 @@
+body {
+	background:url(../img/bg.jpg);
+	}
+	
+	
+input {
+//  border:none;
+//  border-color:transparent; /*Fix IE*/
+
+}
+	
+a:link, a:visited, a:hover, a:active { outline:none; } 
+img { border: none; }

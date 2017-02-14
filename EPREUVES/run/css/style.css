@@ -1,0 +1,27 @@
+body {
+	background:url(../img/i4_bg.jpg);
+	max-height:440px;
+	font-family: "Lucida Console", Courier, monospace;
+	}
+	
+a:link, a:visited, a:hover, a:active { outline:none } 
+img { border: none; }
+
+#result {
+	height:200px;
+	}
+
+#bulle_plate {
+	text-align:center;
+	padding: 35px 0px 0px 0px;
+	position:absolute;
+	width:305px;
+	height:34px;
+	bottom:7px;
+	background-image: url(../img/bulle_plate.png);
+	background-repeat: no-repeat;
+} 
+
+#gpsText {
+	text-align:center;
+}

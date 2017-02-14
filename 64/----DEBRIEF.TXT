@@ -1,0 +1,28 @@
+LES BUGS :
+PARACHUTE = Numero de telephone, Forcer la non detection des N° de telephones.
+Retour a la premiere &eacute;tape si la WEB APP à planté. 
+------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------
+AMELIORATION :
+Créer un system de compte utilisateur avec modification de variable a chaque etape validé afin de retombé a la meme etape en cas de plantage de la web app (demande de login a l'ouverture.)
+Géolocalisation des equipe en temps reel. Inscription de leur corrdonee GPS dans une base relié a eur login. 
+ Creer un systeme d'étape validée en PHP pour KEEP valider WEB APP
+ ------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------ 
+ FORCER LA WEB APP !!! Ne pas fonctionner si passe par safari.app.
+ LE CODE EN PLACE DANS "http://cat.devoralive.com/64/index.html": 
+ 
+				 <SCRIPT language="JavaScript">
+				<!--
+				if (window.navigator.standalone) {
+				   document.location.href="debut.html"
+				} else {
+				   alert('Ajouter &agrave; l ecran d accueil pour continuer')
+				}
+				//-->
+				</SCRIPT>
+
+POUR Un COMPTE DONNEE, il faut definir une rubrique triche. qui sera par defaut a 0, mais qui passera a 1 si quelqu'un trouve le moyen avec une app de developper d'acceder a n'importe quel etape a partir de SAFARI. On ne lui desactive pas son compte pour autant instantanement, mais sera discalifier lors des resultats.
+Je parle de ca c'est on peut acceder au code source depuis markup ou html.app for iPhone :p. Pour baiser les geeks qui voulaient nous baiser.
+------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------
